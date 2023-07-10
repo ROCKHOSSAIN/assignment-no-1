@@ -145,7 +145,24 @@ margin-top: 24px;
 
 /* Instagram-section-start */
 
+.flower-images{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+height: 50vh;
 
+}
+.instagram-header{
+    text-align: center;
+}
+.instagram-description{
+    width: 25%;
+    margin: auto;
+}
+.instagram-title{
+    margin-bottom: 24px;
+}
 /* Instagram-section-end */
 
 
