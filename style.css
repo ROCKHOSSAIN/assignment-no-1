@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header  */
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.header-title{
+width: 708px;
+color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.header-description{
+width: 634px;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 32px 0px;
+}
+.header-btn{
+padding: 20px 43px;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+color: white;
+border: none;
+}
+
+/* end header  */
+
+/* flower-section start  */
+.flower-header{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.flower-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 25%;
+margin: auto;
+text-align: center;
+margin-top: 24px;
+
+}
+.flower-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items:center;
+    margin-top: 48px; 
+    
+       
+
+}
+
+
+.card1,.card2,.card3{
+   
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px;
+    background: rgba(167, 33, 98, 0.15);
+    border: none;
+
+}
+.card2{
+    background: rgba(5, 151, 160, 0.15);
+
+    
+}
+
+.card3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-1{
+    height: 400px;
+    width:310px;
+}
+.flower-title{
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    
+}
+.flower-caption{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    list-style: none;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
