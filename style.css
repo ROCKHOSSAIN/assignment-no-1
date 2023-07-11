@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-}
+background: rgba(229, 84, 115, 0.10);}
 .header-title{
 width: 708px;
 color: #272727;
@@ -40,6 +40,9 @@ border: none;
 /* end header  */
 
 /* flower-section start  */
+.featured-flowers{
+    height: 100vh;
+}
 .flower-header{
     color: #272727;
 text-align: center;
@@ -63,36 +66,32 @@ margin-top: 24px;
     gap: 50px;
     align-items:center;
     margin-top: 48px; 
-    
-       
-
 }
-
-
-.card1,.card2,.card3{
-   
-    width: 400px;
-    border: 1px solid black;
+.card-details{
+    
     border-radius: 300px 300px 0px 0px;
-    padding: 50px;
     background: rgba(167, 33, 98, 0.15);
-    border: none;
+    padding: 20px 20px 0px 20px;
 
 }
-.card2{
-    background: rgba(5, 151, 160, 0.15);
-
-    
+.card-details-1{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 20px 20px 0px 20px;
 }
-
-.card3{
+.card-details-2{
     background: rgba(71, 125, 17, 0.15);
+    padding: 20px 20px 0px 20px;
 }
+
 
 .flower-1{
-    height: 400px;
-    width:310px;
+    
+    margin-bottom: -4px;
+    padding-top: 50px;
+    height: 450px;
+    width: 400px;
 }
+
 .flower-title{
     display: flex;
     gap: 50px;
@@ -107,6 +106,7 @@ margin-top: 24px;
     list-style: none;
     margin: auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 /* Discount-section-start */
@@ -117,6 +117,7 @@ margin-top: 24px;
     align-items: center;
     height: 50vh;
     padding: 100px;
+    background: rgba(229, 84, 115, 0.05);
     
 }
 .discount-header{
@@ -153,6 +154,9 @@ gap: 20px;
 height: 50vh;
 
 }
+.instagram-section{
+height: 80vh;
+}
 .instagram-header{
     text-align: center;
 }
@@ -161,9 +165,34 @@ height: 50vh;
     margin: auto;
 }
 .instagram-title{
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 /* Instagram-section-end */
+
+/* <!-- Achivement section start --> */
+.Achivement-section{
+    height: 80vh;
+}
+.achivement-img{
+    height: 200px;
+}
+.achivement-btn{
+padding: 20px ;
+border-radius: 8px;
+background: #E55473;
+color: white;
+border: none;
+}
+.show-more-btn{
+
+    text-align: center;
+}
+/* .Achivement-header{
+    margin-top: 50px;
+} */
+
+/* <!-- Achivement section  end--> */
+
 
 /* latest-deals start  */
 .latest-deals-section{
@@ -207,7 +236,7 @@ padding-bottom:20px;
     position:absolute;
    top: 200px; 
     left: 35%;
-    padding: 10px;
+    padding: 15px;
     width: 300px;
     border: none;
     margin-top: 70px;
@@ -215,13 +244,14 @@ padding-bottom:20px;
 }
 .subscription2-btn{
     position:absolute;
-    top: 190px; 
+    top: 195px; 
     left: 65%;
-    padding: 15px;
+    padding: 19px;
     background-color: #E55473;
     border: none;
     border-radius: 5px;
     margin-top: 70px;
+    color: white;
 
     
 }
@@ -256,6 +286,7 @@ padding-bottom:20px;
 .final-text{
 opacity: 0.5;
 }
+
 
 /* footer-end  */
 
